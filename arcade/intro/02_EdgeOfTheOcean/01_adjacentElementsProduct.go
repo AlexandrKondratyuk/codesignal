@@ -1,4 +1,4 @@
-package EdgeOfTheOcean
+package main
 
 func adjacentElementsProduct(inputArray []int) int {
 	var result int = inputArray[0]*inputArray[1]

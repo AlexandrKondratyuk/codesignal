@@ -1,4 +1,4 @@
-package EdgeOfTheOcean
+package main
 
 import (
 	"fmt"

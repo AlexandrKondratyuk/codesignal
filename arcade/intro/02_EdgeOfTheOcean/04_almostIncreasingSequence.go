@@ -29,6 +29,9 @@ func almostIncreasingSequence(sequence []int) bool {
 			counter++
 		} else {
 			counter++
+			if counter > 1 {
+				return false
+			}
 		}
 	}
 	return counter < 2
